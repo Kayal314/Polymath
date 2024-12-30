@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contact_us">
+
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:text="@string/contact_us"
+        android:gravity="center"
+        android:fontFamily="@font/alex_brush"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:padding="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_tb1"
+        android:textSize="15sp"
+        android:fontFamily="@font/artifika"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instagram"
+            android:textSize="15sp"
+            android:fontFamily="@font/artifika"/>
+        <ImageButton
+            android:id="@+id/instagram"
+            android:padding="10sp"
+            android:tag="@string/instagram_link"
+            android:layout_marginStart="30sp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/instagram"
+            android:src="@drawable/instagram"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:padding="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_tb2"
+        android:textSize="15sp"
+        android:fontFamily="@font/artifika"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/discord"
+            android:textSize="15sp"
+            android:fontFamily="@font/artifika"/>
+        <ImageButton
+            android:id="@+id/discord"
+            android:padding="10sp"
+            android:tag="@string/discord_link"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_marginStart="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/discord"
+            android:src="@drawable/discord"/>
+    </LinearLayout>
+
+    <TextView
+        android:padding="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_tb3"
+        android:textSize="15sp"
+        android:fontFamily="@font/artifika"/>
+
+
+</LinearLayout>

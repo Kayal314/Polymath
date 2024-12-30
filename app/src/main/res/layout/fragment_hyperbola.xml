@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    tools:context=".quadratic"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:text="@string/t18"
+        android:gravity="center"
+        android:fontFamily="@font/artifika"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <io.github.kexanie.library.MathView
+            android:id="@+id/formula_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginHorizontal="15sp"
+            auto:engine="MathJax"
+            >
+        </io.github.kexanie.library.MathView>
+    </ScrollView>
+
+</LinearLayout>

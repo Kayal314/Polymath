@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/splash_layout"
+    android:background="@color/colorPrimary"
+    >
+    <TextView
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="65sp"
+        android:fontFamily="@font/alex_brush"
+        android:textAllCaps="false"
+        android:text="@string/app_name"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_marginTop="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wayfarer"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:fontFamily="@font/artifika"/>
+</LinearLayout>

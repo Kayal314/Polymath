@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Polymath</string>
+    <string name="about">About Us</string>
+    <string name="wayfarer">Wayfarer</string>
+    <string name="t1"> Definite Integration</string>
+    <string name="t2"> Differentiation</string>
+    <string name="t3"> Inverse Trigonometric Functions</string>
+    <string name="t4"> Quadratic Equations</string>
+    <string name="t5"> Limits</string>
+    <string name="t6">Trigonometric Functions</string>
+    <string name="t7">Circles</string>
+    <string name="t8">Straight Lines in Two Dimensions</string>
+    <string name="t9">Laplace Transforms</string>
+    <string name="t10">Arithmetic and Geometric Progression</string>
+    <string name="t11">Indefinite Integration</string>
+    <string name="t12">Straight Lines in Three Dimensions</string>
+    <string name="t13">Trigonometric Properties of Triangles</string>
+    <string name="t14">Permutations and Combinations</string>
+    <string name="t15">Introductory Boolean Algebra</string>
+    <string name="t16">Ellipses</string>
+    <string name="t17">Parabolas</string>
+    <string name="t18">Hyperbolas</string>
+    <string name="t19">Introductory Probability Theory</string>
+    <string name="t20">Calculus of Variations</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us_content">We are three scholars just about to graduate from high school. Fueled by an intense dislike for the formal system of education, desire to do something innovative, and to take a break from our sedentary quarantined lifestyle, we decided to make the app. Choosing to remain anonymous, I give you a one-liner about us <br /> \n\n
+        &#8226; The one who had a crush on the computer teacher and the ex-english teacher: Android Developer and Content Developer(Java, XML, Gradle, LaTex)<br /> \n\n
+    &#8226; The one who went home with the 50 year old history teacher: Content Developer (MathJax, LaTex)<br /> \n\n
+    &#8226; The one who\'s erotic book was confiscated by the principal: Designer and Advertiser<br /> \n\n
+        You didn\'t ask for it but here\'s the only two things we did in school: \n\n
+    &#8226; Bunked classes \n
+    &#8226; Got a better education than anyone else did\n\n
+        Look I\'ll be honest with you; our school didn\'t teach us anything. All it taught us was how to get good scores in exams.
+        To truly understand our minds, I want you to do three things: \n\n
+        &#8226; Watch the movie "Into the Wild"\n\n
+        &#8226; Try learning from coursera, edx, YouTube, MIT OCW, etc. or basically any book you want (which you\'ll get online). Just google, for example, \'Books for learning Introductory Algorithmic Game Theory\'. You\'ll get a list of prescribed books. Download any one and read. Forget about school and discover your passion \n\n
+        &#8226; Realize that you are an artist. Prove that you are unique. YOLO \n\n
+        I realize I went full-on saint mode so here\'s a joke to lighten your mood: School!
+</string>
+    <string name="about_app_content">
+        It’s exactly what it looks like. Polymath is a categorized list of formulas for different topics in high-school math. Allow me to explain what it isn’t: \n\n
+ &#8226; It isn’t an easy fix for your horrible grades. Don’t try using the app for memorizing mathematical concepts \n\n
+ &#8226; It isn’t a look-up table for cheating in your exams. If, however, you are successful in using Polymath as a tool for cheating, then either your exam is too easy to be of any value or you should be thanking us and sharing the app (Cheeky ad placement) \n\n
+        Polymath is a tool only for two purposes: \n\n
+ &#8226;To tackle math problems at home which you CAN solve but just want to quicken the process \n\n
+ &#8226;To get a ready-made table of formulas whose proofs you can try to come up with (for smart-asses only) \n\n
+Also, if you are an idiot struggling with math then you can also use Polymath to \n\n
+ &#8226;Revise your formulas on the day before your math exam (for morons only) \n\n
+So to sum up, Polymath does not make you a polymath. Forgive my dad-jokes! \n
+And if you don’t know what polymath means, here is a link which does not work: \n https://dictionary.cambridge.org/dictionary/english/polymath \n\n
+        Oh! and by the way, you can scroll down in the contents page (home page) to find more topics (in case you haven\'t already figured that out).
+    </string>
+    <string name="contact_tb1">If you wish to connect with us, report bugs, follow our projects, contribute to projects, discuss your project ideas, or have something to say about our philosophy, follow us on Instagram</string>
+    <string name="contact_tb2">If you wish to directly contribute to our projects as a developer/ advertiser/ entrepreneur, you can join our discord server</string>
+    <string name="contact_tb3">I would, technically, also provide an email for you sophisticated people out there but the SPAM!!!</string>
+    <string name="instagram">Click to Follow us on Instagram: </string>
+    <string name="discord">Click to Join our Discord Server:</string>
+    <string name="discord_link" translatable="false">https://discord.gg/RceveCNUBs</string>
+    <string name="instagram_link" translatable="false">https://www.instagram.com/wayfarerofficial21/</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

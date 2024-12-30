@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/main_index">
+
+    <fragment
+        android:id="@+id/main_index"
+        android:name="com.math.polymath.main_index"
+        android:label="fragment_main_index"
+        tools:layout="@layout/fragment_main_index" >
+        <action
+            android:id="@+id/action_main_index_to_derivatives"
+            app:destination="@id/derivatives" />
+        <action
+            android:id="@+id/action_main_index_to_integration"
+            app:destination="@id/integration" />
+        <action
+            android:id="@+id/action_main_index_to_inverse_trig"
+            app:destination="@id/inverse_trig" />
+        <action
+            android:id="@+id/action_main_index_to_about_app"
+            app:destination="@id/about_app" />
+        <action
+            android:id="@+id/action_main_index_to_about_us"
+            app:destination="@id/about_us" />
+        <action
+            android:id="@+id/action_main_index_to_quadratic"
+            app:destination="@id/quadratic" />
+        <action
+            android:id="@+id/action_main_index_to_limits"
+            app:destination="@id/limits" />
+        <action
+            android:id="@+id/action_main_index_to_trig"
+            app:destination="@id/trig" />
+        <action
+            android:id="@+id/action_main_index_to_circle"
+            app:destination="@id/circle" />
+        <action
+            android:id="@+id/action_main_index_to_str_line"
+            app:destination="@id/str_line" />
+        <action
+            android:id="@+id/action_main_index_to_laplace"
+            app:destination="@id/laplace" />
+        <action
+            android:id="@+id/action_main_index_to_apgp"
+            app:destination="@id/apgp" />
+        <action
+            android:id="@+id/action_main_index_to_indefinite_int"
+            app:destination="@id/indefinite_int" />
+        <action
+            android:id="@+id/action_main_index_to_strlinethreed"
+            app:destination="@id/strlinethreed" />
+        <action
+            android:id="@+id/action_main_index_to_triangles"
+            app:destination="@id/triangles" />
+        <action
+            android:id="@+id/action_main_index_to_combinations"
+            app:destination="@id/combinations" />
+        <action
+            android:id="@+id/action_main_index_to_contact_us"
+            app:destination="@id/contact_us" />
+        <action
+            android:id="@+id/action_main_index_to_boolean_alg"
+            app:destination="@id/boolean_alg" />
+        <action
+            android:id="@+id/action_main_index_to_ellipse"
+            app:destination="@id/ellipse" />
+        <action
+            android:id="@+id/action_main_index_to_parabola"
+            app:destination="@id/parabola" />
+        <action
+            android:id="@+id/action_main_index_to_hyperbola"
+            app:destination="@id/hyperbola" />
+        <action
+            android:id="@+id/action_main_index_to_probability"
+            app:destination="@id/probability" />
+        <action
+            android:id="@+id/action_main_index_to_variation"
+            app:destination="@id/variation" />
+    </fragment>
+    <fragment
+        android:id="@+id/derivatives"
+        android:name="com.math.polymath.derivatives"
+        android:label="fragment_derivatives"
+        tools:layout="@layout/fragment_derivatives" />
+    <fragment
+        android:id="@+id/integration"
+        android:name="com.math.polymath.integration"
+        android:label="fragment_integration"
+        tools:layout="@layout/fragment_integration" />
+    <fragment
+        android:id="@+id/inverse_trig"
+        android:name="com.math.polymath.inverse_trig"
+        android:label="fragment_inverse_trig"
+        tools:layout="@layout/fragment_inverse_trig" />
+    <fragment
+        android:id="@+id/about_us"
+        android:name="com.math.polymath.about_us"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/about_app"
+        android:name="com.math.polymath.about_app"
+        android:label="fragment_about_app"
+        tools:layout="@layout/fragment_about_app" />
+    <fragment
+        android:id="@+id/quadratic"
+        android:name="com.math.polymath.quadratic"
+        android:label="fragment_quadratic"
+        tools:layout="@layout/fragment_quadratic" />
+    <fragment
+        android:id="@+id/limits"
+        android:name="com.math.polymath.limits"
+        android:label="fragment_limits"
+        tools:layout="@layout/fragment_limits" />
+    <fragment
+        android:id="@+id/trig"
+        android:name="com.math.polymath.trig"
+        android:label="trig" />
+    <fragment
+        android:id="@+id/circle"
+        android:name="com.math.polymath.circle"
+        android:label="circle" />
+    <fragment
+        android:id="@+id/str_line"
+        android:name="com.math.polymath.str_line"
+        android:label="fragment_str_line"
+        tools:layout="@layout/fragment_str_line" />
+    <fragment
+        android:id="@+id/laplace"
+        android:name="com.math.polymath.laplace"
+        android:label="laplace" />
+    <fragment
+        android:id="@+id/apgp"
+        android:name="com.math.polymath.apgp"
+        android:label="apgp" />
+    <fragment
+        android:id="@+id/indefinite_int"
+        android:name="com.math.polymath.indefinite_int"
+        android:label="indefinite_int" />
+    <fragment
+        android:id="@+id/strlinethreed"
+        android:name="com.math.polymath.strlinethreed"
+        android:label="strlinethreed" />
+    <fragment
+        android:id="@+id/triangles"
+        android:name="com.math.polymath.triangles"
+        android:label="triangles" />
+    <fragment
+        android:id="@+id/combinations"
+        android:name="com.math.polymath.combinations"
+        android:label="combinations" />
+    <fragment
+        android:id="@+id/contact_us"
+        android:name="com.math.polymath.contact_us"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/boolean_alg"
+        android:name="com.math.polymath.boolean_alg"
+        android:label="boolean_alg" />
+    <fragment
+        android:id="@+id/ellipse"
+        android:name="com.math.polymath.ellipse"
+        android:label="ellipse" />
+    <fragment
+        android:id="@+id/parabola"
+        android:name="com.math.polymath.Parabola"
+        android:label="Parabola" />
+    <fragment
+        android:id="@+id/hyperbola"
+        android:name="com.math.polymath.hyperbola"
+        android:label="hyperbola" />
+    <fragment
+        android:id="@+id/probability"
+        android:name="com.math.polymath.probability"
+        android:label="probability" />
+    <fragment
+        android:id="@+id/variation"
+        android:name="com.math.polymath.variation"
+        android:label="variation" />
+</navigation>
